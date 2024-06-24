@@ -1,8 +1,10 @@
 import SocialNetworks from './SocialNetworks';
+import InformationContainer from './InformationContainer';
 
 import Avatar from '../img/perfil.webp';
 
 import '../styles/components/sidebar.sass';
+
 
 const Sidebar = () => {
     return(
@@ -10,7 +12,7 @@ const Sidebar = () => {
             <img src={Avatar} alt="perfil" />
             <p className="title">Desenvolvedor</p>
             <SocialNetworks />
-            <p>informacoes de contato</p>
+            <InformationContainer />
             <a href="" className="btn">Download curriculo</a>
         </aside>
     )
