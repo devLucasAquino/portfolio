@@ -1,9 +1,11 @@
+import Avatar from '../img/perfil.webp';
+
 import '../styles/components/sidebar.sass';
 
 const Sidebar = () => {
     return(
         <aside id="sidebar">
-            <canvas id="img"></canvas>
+            <img src={Avatar} alt="perfil" />
             <p className="title">Desenvolvedor</p>
             <p>redes sociais</p>
             <p>informacoes de contato</p>
