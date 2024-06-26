@@ -2,30 +2,36 @@ import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from 'react-icons/ai';
 
 import '../styles/components/informationcontainer.sass';
 
+const informations = [
+    {
+        icon: <AiFillPhone id='phone-icon'/>,
+        title: 'Telefone',
+        paragraph: '(11) 9 7625-3412'
+    },
+    {
+        icon: <AiOutlineMail id='email-icon'/>,
+        title: 'E-mail',
+        paragraph: 'joaolucas.aqalves111@outlook.com'
+    },
+    {
+        icon: <AiFillEnvironment id='pin-icon'/>,
+        title: 'Localizacao',
+        paragraph: 'Sao Paulo / SP'
+    },
+]
+
 const InformationContainer = () => {
     return(
         <section id="information">
-            <div className="info-card">
-                <AiFillPhone id='phone-icon'/>
-                <div>
-                    <h3>Telefone</h3>
-                    <p>(11) 9 7625-3412</p>
+            {informations.map((info) => (
+                <div className='info-card'>
+                    {info.icon}
+                    <div>
+                        <h3>{info.title}</h3>
+                        <p>{info.paragraph}</p>
+                    </div>
                 </div>
-            </div>
-            <div className="info-card">
-                <AiOutlineMail id='email-icon'/>
-                <div>
-                    <h3>E-mail</h3>
-                    <p>joaolucas.aqalves111@outlook.com</p>
-                </div>
-            </div>
-            <div className="info-card">
-                <AiFillEnvironment id='pin-icon'/>
-                <div>
-                    <h3>Localizacao</h3>
-                    <p>Sao Paulo / SP</p>
-                </div>
-            </div>
+            ))}
         </section>
     )
 }
