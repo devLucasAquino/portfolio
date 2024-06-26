@@ -2,17 +2,14 @@ const AboutContainer = () => {
     return(
         <section className="about-container">
             <h2>Sobre</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Nobis officia quod, atque corrupti pariatur ea culpa omnis enim 
-                rerum incidunt dignissimos. Aliquid ea quidem optio repellendus distinctio, 
-                quaerat veniam labore!
-
+            <p>
+                Sou Joao Lucas Aquino Alves, tenho 19 anos e sou estudante de TI na area de desenvolvimento,
+                atualmente estou cursando tecnico em Desenvolvimento de Sistemas no Senai.
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur, 
-                adipisicing elit. Unde quae consectetur quos maiores at 
-                aliquid esse facere alias consequuntur ratione a quia harum 
-                tempora id iste, ex temporibus, quis error.
-
+            <p>
+                Pretendo ao termino do curso tecnico, iniciar uma graduacao em Analise e Desenvolvimento 
+                de Sistemas para me aprofundar ainda mais nesse ramo 
+                da tecnologia e me tornar um profissional requisitado e bem sucedido no mercado.
             </p>
         </section>
     )

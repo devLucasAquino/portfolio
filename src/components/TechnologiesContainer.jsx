@@ -10,12 +10,12 @@ import {
 import '../styles/components/technologiescontainer.sass';
 
 const technologies = [
-    {id: 'html', name: 'HTML5', icon: <DiHtml5 />},
-    {id: 'css', name: 'CSS3', icon: <DiCss3 />},
-    {id: 'js', name: 'JavaScript', icon: <DiJsBadge />},
-    {id: 'react', name: 'ReactJS', icon: <DiReact />},
-    {id: 'sass', name: 'Sass', icon: <DiSass />},
-    {id: 'mysql', name: 'MySQL', icon: <DiMysql />},
+    {id: 'html', name: 'HTML5', icon: <DiHtml5 />, description: 'Tecnologia fundamental para a WEB'},
+    {id: 'css', name: 'CSS3', icon: <DiCss3 />, description: 'Juntamente com HTML formam os fundamentos de websites'},
+    {id: 'js', name: 'JavaScript', icon: <DiJsBadge />, description: 'Com seu fundamento em dinamizar websites, hoje esta ferramenta esta presente em todos ambientes tecnologicos'},
+    {id: 'react', name: 'ReactJS', icon: <DiReact />, description: ''},
+    {id: 'sass', name: 'Sass', icon: <DiSass />, description: ''},
+    {id: 'mysql', name: 'MySQL', icon: <DiMysql />, description: 'Uma poderosa tecnologia de armazenamento de dados de forma relacional'},
 ]
 
 const TechnologiesContainer = () => {
@@ -28,9 +28,7 @@ const TechnologiesContainer = () => {
                         {tech.icon}
                         <div className="technology-info">
                             <h3>{tech.name}</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            </p>
+                            <p>{tech.description}</p>
                         </div>
                     </div>
 
