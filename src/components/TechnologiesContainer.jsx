@@ -11,11 +11,11 @@ import '../styles/components/technologiescontainer.sass';
 
 const technologies = [
     {id: 'html', name: 'HTML5', icon: <DiHtml5 />, description: 'Tecnologia fundamental para a WEB'},
-    {id: 'css', name: 'CSS3', icon: <DiCss3 />, description: 'Juntamente com HTML formam os fundamentos de websites'},
-    {id: 'js', name: 'JavaScript', icon: <DiJsBadge />, description: 'Com seu fundamento em dinamizar websites, hoje esta ferramenta esta presente em todos ambientes tecnologicos'},
-    {id: 'react', name: 'ReactJS', icon: <DiReact />, description: ''},
-    {id: 'sass', name: 'Sass', icon: <DiSass />, description: ''},
-    {id: 'mysql', name: 'MySQL', icon: <DiMysql />, description: 'Uma poderosa tecnologia de armazenamento de dados de forma relacional'},
+    {id: 'css', name: 'CSS3', icon: <DiCss3 />, description: 'Ferramenta para estilizar o HTML'},
+    {id: 'js', name: 'JavaScript', icon: <DiJsBadge />, description: 'Presente em todos os setores da tecnologia'},
+    {id: 'react', name: 'ReactJS', icon: <DiReact />, description: 'Uma poderosa juncao de HTML e JS'},
+    {id: 'sass', name: 'Sass', icon: <DiSass />, description: 'Estilos de forma simples e produtiva'},
+    {id: 'mysql', name: 'MySQL', icon: <DiMysql />, description: 'Armazenamento de dados de forma relacional'},
 ]
 
 const TechnologiesContainer = () => {
