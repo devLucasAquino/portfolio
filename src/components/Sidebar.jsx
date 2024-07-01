@@ -1,7 +1,7 @@
 import SocialNetworks from './SocialNetworks';
 import InformationContainer from './InformationContainer';
 
-import Avatar from '../img/perfil.webp';
+import Avatar from '../img/perfil.jpg';
 
 import '../styles/components/sidebar.sass';
 
