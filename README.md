@@ -4,8 +4,8 @@ Este repositorio contem um projeto de Portfolio pensado e desenvolvido para recr
 
 ## Preview
 
-[!Loading](./src/img/preview-part1.png "preview")
-[!Loading](./src/img/preview-part2.png "preview")
+![Loading](./src/img/preview-part1.png "preview")
+![Loading](./src/img/preview-part2.png "preview")
 
 ## Tecnologias utilizadas no desenvolvimento do projeto
 
