@@ -28,6 +28,7 @@ const Sidebar = () => {
             <InformationContainer />
             <a className="btn" onClick={handleOpenModal}>Download curriculo</a>
             <Modal isOpen={isModalOpen} onClose={handleCloseModal}/>
+            
         </aside>
     )
 }

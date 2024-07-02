@@ -1,0 +1,38 @@
+@use '../variables'
+@use '../mixins'
+
+@keyframes btn-rotate
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)
+        
+
+.modal-content
+    @include mixins.center
+    flex-direction: column
+    background-color: variables.$bg-color-secondary
+    gap: 1rem
+    padding: 1rem
+    margin-top: 2rem
+    border-radius: variables.$card-border-radius
+
+    .modal-close
+        margin-left: auto
+        padding: 0.3rem
+        font-size: 0.9rem
+        font-weight: bold
+        background-color: #bc0202e4
+        color: variables.$text-color
+        border: none
+        border-radius: variables.$card-border-radius
+        outline: 1px solid variables.$text-color
+
+    h3
+        font-size: 1.4rem
+        color: variables.$text-color-secondary
+
+    #loading
+        font-size: 1.8rem
+        color: variables.$text-color
+        animation: btn-rotate 1.4s linear infinite

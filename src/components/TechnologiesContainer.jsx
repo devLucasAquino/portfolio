@@ -14,7 +14,7 @@ const technologies = [
     {id: 'css', name: 'CSS3', icon: <DiCss3 />, description: 'Ferramenta para estilizacao'},
     {id: 'js', name: 'JavaScript', icon: <DiJsBadge />, description: 'Tecnologia para desenvolvimento WEB'},
     {id: 'react', name: 'ReactJS', icon: <DiReact />, description: 'Uma poderosa framework JS'},
-    {id: 'sass', name: 'Sass', icon: <DiSass />, description: 'Extensao ao CSS'},
+    {id: 'sass', name: 'Sass', icon: <DiSass />, description: 'Extensao do CSS'},
     {id: 'mysql', name: 'MySQL', icon: <DiMysql />, description: 'Armazenamento de dados de forma relacional'},
 ]
 
